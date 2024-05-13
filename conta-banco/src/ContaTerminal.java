@@ -14,7 +14,7 @@ public class ContaTerminal {
         String agencia = sc.nextLine();
         System.out.println("Por favor, digite o número da Conta !");
         int numero = sc.nextInt();
-        System.out.println("Por favor, digite o saldo do Cliente !\n");
+        System.out.println("Por favor, digite o saldo do Cliente !");
         double saldo = sc.nextDouble();
 
         // Obter pela scanner os valores digitados no terminal
@@ -23,7 +23,8 @@ public class ContaTerminal {
         System.out.println(agencia);
         System.out.println(saldo);
         // exibir a mensagem da conta criada
-        System.out.println(" \n Sua conta foi criada com sucesso !");
+        System.out.println("Olá " + nome + ", obrigado por criar uma conta em nosso banco. Sua agência é " + agencia + ", o número da conta é " + numero + " e seu saldo de R$ " + saldo + " já está disponível para saque.");
+
     }
 }
 
